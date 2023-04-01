@@ -2,7 +2,7 @@
 
 GitLab Cleanup is a Python script that helps manage and clean up GitLab container registries by removing old and unused tags. It also allows you to configure the number of tags to keep for important repositories, ignore specific repositories, and delete empty repositories.
 
-## Features
+## Features
 
 - Delete tags older than a specified number of days
 - Keep a specified number of tags for important repositories
@@ -30,7 +30,7 @@ GITLAB_ACCESS_TOKEN=your_private_token
 ```
 Replace `gitlab.example.com` with your GitLab instance domain, `your_project_id` with the project ID you want to manage, and `your_private_token` with your personal GitLab access token.
 
-## Usage
+## Usage
 
 1. Open the script in a text editor and configure the following settings as needed:
 - `dry_run`: Set to False to perform actual deletions; set to True to preview actions without making any changes.
@@ -46,7 +46,7 @@ Replace `gitlab.example.com` with your GitLab instance domain, `your_project_id`
 python gitlab_cleanup.py
 ```
 
-## Scheduling with Cron
+## Scheduling with Cron
 
 You can use a cron job to execute the GitLab Cleanup script automatically every hour. Here's how to set up a cron job for the script:
 
