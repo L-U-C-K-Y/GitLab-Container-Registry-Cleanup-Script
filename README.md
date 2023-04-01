@@ -4,11 +4,11 @@ GitLab Cleanup is a Python script that helps manage and clean up GitLab containe
 
 ## Features
 
-- Delete tags older than a specified number of days
-- Keep a specified number of tags for important repositories
-- Ignore specific repositories
-- Delete empty repositories
-- Dry run mode to preview actions without making any changes
+🕒 Delete tags older than a specified number of days
+🏷️ Keep a specified number of tags for important repositories
+🚫 Ignore specific repositories
+🗑️ Delete empty repositories
+🔍 Dry run mode to preview actions without making any changes
 
 ## Requirements
 
